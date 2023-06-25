@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(255, 246, 205);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+hr{
+  align-items : auto;
+  border-top: 4px solid #469c52b9;
+  
+}
+
+.announcement{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 1.2rem;
+  color: #ffff00;
+  background-color: #469c527c;
+
+}
+
+header > img {
+  padding-top: 1rem;
+}
+
+header {
+  background: lemonchiffon;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+nav{
+  width:100%;
+  padding-top: rem;
+}
+nav > ul{
+  padding-top: 2rem;
+  list-style: none;
+  text-align: center;
+  font-size: 3em;
+  width: 100%;
+  margin: auto;
+
+}
+nav>ul>li{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-size: 0.60em;
+  display: inline-flex;
+  padding: 0.5rem;
+  background-color: #469c521e;
+  text-transform: uppercase;
+  font-weight: 900;
+ 
+  color:#D0604C;
+  border: 4px double #D0604C;;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-img{
+  padding-top: 2rem;
+  margin:auto;
+  text-align: center;
+}
+.main-img > img{
+  background-color: #469c5210;
+}
