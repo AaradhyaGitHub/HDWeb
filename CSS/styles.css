@@ -82,14 +82,7 @@ a{
 
 
 .promo-info{
-  font-size: 2.5rem;
-  margin:auto;
-  width: 25%;
-  position:relative;
-  transform: translate(150%,-155%);
-  color: rgb(240, 240, 240);
-  padding: 2%;
-
+  font-size: 2rem;
   background-color:#0000006f;
   font-family: 'Big Shoulders Stencil Text', cursive;
 }
@@ -98,3 +91,59 @@ a{
   border: 10px double rgb(240, 240, 240);
 
 }
+
+article > img{
+}
+
+.services {
+  display: flex;
+  margin: 1rem;
+}
+.service-titles{
+  display: flex;
+  border: 10px double rgb(240, 240, 240);
+  margin-bottom: 1rem;
+}
+
+article{
+  margin-top: 4rem;
+  margin: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer {
+  margin-top: 1rem;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#f86b52;
+}
+
+.footer-column {
+  display: flex;
+  align-items: center;
+}
+
+.footer-column img {
+  max-height: 50px; /* Adjust the height as needed */
+  margin-right: 10px;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.footer-column a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+.social-media-icons{
+  text-align: right;
+}
+
